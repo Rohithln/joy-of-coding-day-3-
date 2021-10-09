@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a=45678,n,count=0;
+    while(a>0)
+    {
+        n=a%10;
+        printf("%d ",n);
+        a=a/10;
+        count++;
+    }
+    printf("Number of digits: %d ",count);
+    return 0;        
+}
